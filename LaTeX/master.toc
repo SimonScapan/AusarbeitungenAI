@@ -1,0 +1,24 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {ngerman}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{II}{chapter*.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{III}{chapter*.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Quelltextverzeichnis}{IV}{chapter*.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Algorithmenverzeichnis }{V}{chapter*.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Abkürzungsverzeichnis}{VI}{chapter*.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Thema 1 - Historische Entwicklung von Artificial Intelligence}{2}{chapter.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Thema 2 - Gesellschaftliche Auswirkungen von Artificial Intellingence}{3}{chapter.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Thema 3 - Vergleich von Trading Bots}{4}{chapter.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Thema 4 - Computational Art zum generieren von Musik}{5}{chapter.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Zusammenfassung der Forschungsthemen}{6}{chapter.6}%

@@ -1,0 +1,204 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%   Autoren:
+%   Prof. Dr. Bernhard Drabant
+%   Prof. Dr. Dennis Pfisterer
+%   Prof. Dr. Julian Reichwald
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	ANLEITUNG: 
+%   1. Ersetzen Sie firmenlogo.jpg im Verzeichnis img
+%   2. Passen Sie alle Stellen im Dokument an, die mit 
+%      @stud 
+%      markiert sind
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	ACHTUNG: 
+%   Für das Erstellen des Literaturverzeichnisses wird das 
+%   modernere Paket biblatex in Kombination mit biber 
+%   verwendet - nicht mehr das ältere Paket BibTex!
+%
+%   Bitte stellen Sie Ihre TeX-Umgebung entsprechend ein (z.B. TeXStudio): 
+%   Einstellungen --> Erzeugen --> Standard Bibliographieprogramm: biber
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[fontsize=12pt,BCOR=5mm,DIV=12,parskip=half,
+               listof=entryprefix,paper=a4,toc=bibliography,toc=listof,pointlessnumbers]{scrreprt}
+               
+\makeindex
+
+%% Elementare Pakete, Konfigurationen und Definitionen werden geladen (gegebenenfalls anpassen)
+\input{config}
+
+%%
+%% @stud
+%%
+%% PERSÖNLICHE ANGABEN (BITTE VOLLSTÄNDIG EINGEBEN zwischen den Klammern: {...})
+%%
+\TitelDerArbeit{Ausarbeitungen im Modul Artificial Intelligence}
+\AutorDerArbeit{Simon Scapan}
+\Firma{Volkswagen Vertriebsbetreuungsgesellschaft mbH}
+\Kurs{WWI18-DSB}
+\Kursleiter{Prof. Maximilian Scherer}
+\Studienrichtung{Data Science}
+\Matrikelnummer{6699329}
+\Studiengangsleiter{Prof. Bernhard Drabant}
+
+%%
+%% @stud
+%%
+%% BIBLIOGRAPHY (@stud: Bibliographie-Stil wählen - Position und Indizierung)
+%%  Auswahl zwischen: 
+%%   NUMERIC Style
+%%   IEEE Style
+%%   ALPHABETIC Style
+%%   HARVARD Style
+%%   CHICAGO Style 
+%%   (oder eigenen zulässigen Stil wählen) 
+%%
+%%%%%%%%%%%%%
+%% Zitierstil
+%%%%%%%%%%%%%
+% NUMERIC Style - e. g. [12]
+%\newcommand{\indextype}{numeric} 
+%
+% IEEE Style - numeric kind of style 
+\newcommand{\indextype}{ieee} 
+%
+% ALPHABETIC Style - e. g. [AB12]
+%\newcommand{\indextype}{alphabetic} 
+%
+% HARVARD Style 
+%\newcommand{\indextype}{apa} 
+%
+% CHICAGO Style 
+%\newcommand{\indextype}{authoryear}
+%
+%%%%%%%%%%%%%%%%%%%%%%
+%% Position des Zitats
+%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\position}{inline} 
+%
+% (!!) FOOTNOTE POSITION NOT RECOMMENDED IN MINT DOMAIN:
+%\newcommand{\position}{footnote}
+
+%% Final: Setzen des Zitierstils und der Zitatposition
+\usepackage[backend=biber, autocite=\position, style=\indextype]{biblatex} 	
+\settingBibFootnoteCite
+
+%%
+%% Definitionen und Commands
+%%
+\newcommand{\abs}{\par\vskip 0.2cm\goodbreak\noindent}
+\newcommand{\nl}{\par\noindent}
+\newcommand{\mcl}[1]{\mathcal{#1}}
+\newcommand{\nowrite}[1]{}
+\newcommand{\NN}{{\mathbb N}}
+\newcommand{\imagedir}{img}
+
+\makeindex
+
+\begin{document}
+
+\setTitlepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% KAPITEL UND ANHÄNGE
+%
+% @stud:
+%   - nicht benötigte: auskommentieren/löschen
+%   - neue: bei Bedarf hinzufügen mittels input-Kommando an entsprechender Stelle einfügen
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% EHRENWÖRTLICHE ERKLÄRUNG
+%
+% @stud: ewerkl.tex bearbeiten
+%
+%\input{ewerkl} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% SPERRVERMERK
+%
+% @stud: nondisclosurenotice.tex bearbeiten
+%
+%\input{nondisclosurenotice} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	KURZFASSUNG
+%
+% @stud: acknowledge.tex bearbeiten
+%
+%\input{acknowledge} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	KURZFASSUNG
+%
+% @stud: abstract.tex bearbeiten
+%
+%\input{abstract} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% VERZEICHNISSE
+%
+% @stud: ggf. nicht benötigte Verzeichnisse auskommentieren/löschen in Def. von \settingLists in config.tex
+%
+\settingLists
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ABKÜRZUNGSVERZEICHNIS
+%
+% @stud: acronyms.tex bearbeiten
+%
+\input{acronyms} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\initializeText
+\onehalfspacing
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% KAPITEL
+%
+% @stud: einzelne Kapitel bearbeiten und eigene Kapitel hier einfügen
+%
+\input{plaintext/introduction}
+
+\input{plaintext/chapter1}
+\input{plaintext/chapter2}
+\input{plaintext/chapter3}
+\input{plaintext/chapter4}
+
+\input{plaintext/conclusion}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\initializeAppendix
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ANHÄNGE
+%
+% @stud: einzelne Anhänge bearbeiten und eigene Anhänge hier einfügen 
+%
+%\input{appendix1}
+%\input{appendix2}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\singlespacing
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LITERATURVERZEICHNIS
+% 
+% @stud: Literaturverzeichnis in Datei bibliography.bib anpassen 
+%
+\initializeBibliography
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\addcontentsline{toc}{chapter}{Index}
+\printindex
+
+\end{document}
