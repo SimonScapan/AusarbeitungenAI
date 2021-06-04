@@ -8,7 +8,7 @@ Repository zur Sammlung der Ausarbeitungen zu den vier Themenbereichen in der Vo
 
     Ausarbeitung in schriftlicher Form mit dem Thema:
 
-    Gegenüberstellung von Turings Enigma Dechiffriere Machine und heutigen AIs zum Entschlüsseln von Passwörtern und Codes. Dabei aufzeigen der Probleme und Risiken, aber auch, wie man Codes sicherer gestallten kann.
+    > Gegenüberstellung von Turings Enigma Dechiffriere Machine und heutigen AIs zum Entschlüsseln von Passwörtern und Codes. Dabei aufzeigen der Probleme und Risiken, aber auch, wie man Codes sicherer gestallten kann.
 
 
 2. *Zwei gesellschaftliche Auswirkungen von AI-Entwicklung vergleichen und kritisch
@@ -16,7 +16,7 @@ bewerten*
 
     Ausarbeitung in schriftlicher Form mit dem Thema:
 
-    Welche Jobs und Tätigkeiten werden künftig von AI übernommen und wie lange dauert das in bestimmten Fällen noch? Wie schnell werden Computer uns im Leben ersetzen und in welchen Bereichen ist das schon geschehen?
+    > Welche Jobs und Tätigkeiten werden künftig von AI übernommen und wie lange dauert das in bestimmten Fällen noch? Wie schnell werden Computer uns im Leben ersetzen und in welchen Bereichen ist das schon geschehen?
 
 
 3. *Ein regelbasiertes Verfahren und entweder einen evolutionären / genetischen
@@ -27,7 +27,7 @@ erklären*
 
     Reinforcement Learning Projekt mit wissenschaftlicher Ausarbeitung:
     
-    Vergleich zweier Crypto Trading bots, zum einen Regelbasiert (Buy low, sell high) und eines Reinformcement learnings zum Automatisierten Aktienhandel. Diese Thematik wird implementiert und dann im Umfang einer Präsentation in der Vorlesung vorgetragen und wissenschaftlich dokumentiert.
+    > Vergleich zweier Crypto Trading bots, zum einen Regelbasiert (Buy low, sell high) und eines Reinformcement learnings zum Automatisierten Aktienhandel. Diese Thematik wird implementiert und dann im Umfang einer Präsentation in der Vorlesung vorgetragen und wissenschaftlich dokumentiert.
 
 
 4. *Ein generatives Verfahren (GAN, Markov Chains, VAE, ...) erklären und verschiedene
@@ -36,4 +36,4 @@ Computational Art, Synthetische Daten, Forecasting, ...) anwenden*
 
     Deep Learning Projekt zur generierung von Musik anhand von WaveNet
 
-    Anhand von WaveNet, einem Deep Learning basierten generativen Model entwickelt von Google DeepMind soll Musik produziert werden. Das Ziel dabei ist anhand von liedern verschiedener Künstler (seiner lieblingskünstler) neue Musik zu creieren, damit man nicht immer das gleiche hören muss. Die Ergebnisse werden dann entweder in einer Präsentation während der Vorlesung oder in einem kurzen Podcast vorgestellt und Bewertet.
+    > Anhand von WaveNet, einem Deep Learning basierten generativen Model entwickelt von Google DeepMind soll Musik produziert werden. Das Ziel dabei ist anhand von liedern verschiedener Künstler (seiner lieblingskünstler) neue Musik zu creieren, damit man nicht immer das gleiche hören muss. Die Ergebnisse werden dann entweder in einer Präsentation während der Vorlesung oder in einem kurzen Podcast vorgestellt und Bewertet.
