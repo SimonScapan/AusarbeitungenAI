@@ -2184,6 +2184,12 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="0" nocite="1">*</bcf:citekey>
+    <bcf:citekey order="1">bloemer_2012</bcf:citekey>
+    <bcf:citekey order="2">oepen_hoefer_2007</bcf:citekey>
+    <bcf:citekey order="3">simkin_2020</bcf:citekey>
+    <bcf:citekey order="4">venona_NSA</bcf:citekey>
+    <bcf:citekey order="5">tittel_brendel_gisin_ribordy_zbinden_1999</bcf:citekey>
+    <bcf:citekey order="6">rass_schartner_2002</bcf:citekey>
     <bcf:citekey order="0" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
