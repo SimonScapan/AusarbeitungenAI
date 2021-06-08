@@ -1,0 +1,19 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[1] Config.pm:307> INFO - Logfile is 'master.blg'
+[152] biber-darwin:322> INFO - === Mon Jun  7, 2021, 17:42:59
+[186] Biber.pm:415> INFO - Reading 'master.bcf'
+[397] Biber.pm:940> INFO - Using all citekeys in bib section 0
+[427] Biber.pm:4256> INFO - Processing section 0
+[427] Utils.pm:75> INFO - Globbing data source 'bibliography.bib'
+[428] Utils.pm:91> INFO - Globbed data source 'bibliography.bib' to bibliography.bib
+[451] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
+[453] bibtex.pm:1653> INFO - LaTeX decoding ...
+[476] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliography.bib'
+[529] Utils.pm:304> WARN - month field 'Oct' in entry 'guldner_2017' is not an integer - this will probably not sort properly.
+[602] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[602] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[603] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[603] Biber.pm:4090> INFO - No sort tailoring available for locale 'de-DE'
+[624] bbl.pm:652> INFO - Writing 'master.bbl' with encoding 'UTF-8'
+[631] bbl.pm:755> INFO - Output to master.bbl
+[632] Biber.pm:128> INFO - WARNINGS: 1

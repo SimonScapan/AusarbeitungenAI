@@ -13,20 +13,22 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Historische Entwicklung der digitalen Kryptographie}{2}{chapter.2}%
+\contentsline {chapter}{\numberline {2}Historische Entwicklung der Kryptographie}{2}{chapter.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\nonumberline Turing - Bombe}{2}{section*.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline VENONA - Projekt}{6}{section*.9}%
+\contentsline {subsubsection}{\nonumberline VENONA - Projekt}{5}{section*.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Quantenkryptographie}{7}{section*.10}%
+\contentsline {subsubsection}{\nonumberline Quantenkryptographie}{5}{section*.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Fazit}{8}{section*.11}%
+\contentsline {subsubsection}{\nonumberline Fazit}{6}{section*.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Gesellschaftliche Auswirkungen von \ac {AI}}{9}{chapter.3}%
+\contentsline {chapter}{\numberline {3}Auswirkungen von \ac {AI} auf den Arbeitsmarkt}{7}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Evolutionäre und Genetische Algorithmen zur Bewältigung komplexer Aufgaben}{10}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Evolutionäre und Genetische Algorithmen zur Bewältigung komplexer Aufgaben}{9}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Generative Verfahren der \ac {AI}}{11}{chapter.5}%
+\contentsline {chapter}{\numberline {5}Generative Verfahren der \ac {AI}}{10}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Zusammenfassung der Forschungsthemen}{12}{chapter.6}%
+\contentsline {chapter}{\numberline {6}Zusammenfassung der Forschungsthemen}{11}{chapter.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{12}{chapter*.15}%

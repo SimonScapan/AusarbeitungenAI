@@ -2185,11 +2185,47 @@
   <bcf:section number="0">
     <bcf:citekey order="0" nocite="1">*</bcf:citekey>
     <bcf:citekey order="1">bloemer_2012</bcf:citekey>
-    <bcf:citekey order="2">oepen_hoefer_2007</bcf:citekey>
-    <bcf:citekey order="3">simkin_2020</bcf:citekey>
-    <bcf:citekey order="4">venona_NSA</bcf:citekey>
-    <bcf:citekey order="5">tittel_brendel_gisin_ribordy_zbinden_1999</bcf:citekey>
-    <bcf:citekey order="6">rass_schartner_2002</bcf:citekey>
+    <bcf:citekey order="2">bloemer_2012</bcf:citekey>
+    <bcf:citekey order="3">bloemer_2012</bcf:citekey>
+    <bcf:citekey order="4">bloemer_2012</bcf:citekey>
+    <bcf:citekey order="5">oepen_hoefer_2007</bcf:citekey>
+    <bcf:citekey order="6">bloemer_2012</bcf:citekey>
+    <bcf:citekey order="7">bloemer_2012</bcf:citekey>
+    <bcf:citekey order="8">bloemer_2012</bcf:citekey>
+    <bcf:citekey order="9">bloemer_2012</bcf:citekey>
+    <bcf:citekey order="10">bloemer_2012</bcf:citekey>
+    <bcf:citekey order="11">bloemer_2012</bcf:citekey>
+    <bcf:citekey order="12">bloemer_2012</bcf:citekey>
+    <bcf:citekey order="13">bloemer_2012</bcf:citekey>
+    <bcf:citekey order="14">bloemer_2012</bcf:citekey>
+    <bcf:citekey order="15">bloemer_2012</bcf:citekey>
+    <bcf:citekey order="16">bloemer_2012</bcf:citekey>
+    <bcf:citekey order="17">venona_NSA</bcf:citekey>
+    <bcf:citekey order="18">simkin_2020</bcf:citekey>
+    <bcf:citekey order="19">simkin_2020</bcf:citekey>
+    <bcf:citekey order="20">venona_NSA</bcf:citekey>
+    <bcf:citekey order="21">venona_NSA</bcf:citekey>
+    <bcf:citekey order="22">rass_schartner_2002</bcf:citekey>
+    <bcf:citekey order="23">rass_schartner_2002</bcf:citekey>
+    <bcf:citekey order="24">tittel_brendel_gisin_ribordy_zbinden_1999</bcf:citekey>
+    <bcf:citekey order="25">tittel_brendel_gisin_ribordy_zbinden_1999</bcf:citekey>
+    <bcf:citekey order="26">rass_schartner_2002</bcf:citekey>
+    <bcf:citekey order="27">business_insider_2018</bcf:citekey>
+    <bcf:citekey order="28">jerzy_2019</bcf:citekey>
+    <bcf:citekey order="29">bachmann_2020</bcf:citekey>
+    <bcf:citekey order="30">jerzy_2019</bcf:citekey>
+    <bcf:citekey order="31">jerzy_2019</bcf:citekey>
+    <bcf:citekey order="32">jerzy_2019</bcf:citekey>
+    <bcf:citekey order="33">jerzy_2019</bcf:citekey>
+    <bcf:citekey order="34">jerzy_2019</bcf:citekey>
+    <bcf:citekey order="35">bachmann_2020</bcf:citekey>
+    <bcf:citekey order="36">guldner_2017</bcf:citekey>
+    <bcf:citekey order="37">bachmann_2020</bcf:citekey>
+    <bcf:citekey order="38">bachmann_2020</bcf:citekey>
+    <bcf:citekey order="39">bachmann_2020</bcf:citekey>
+    <bcf:citekey order="40">bachmann_2020</bcf:citekey>
+    <bcf:citekey order="41">bachmann_2020</bcf:citekey>
+    <bcf:citekey order="42">guldner_2017</bcf:citekey>
     <bcf:citekey order="0" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->

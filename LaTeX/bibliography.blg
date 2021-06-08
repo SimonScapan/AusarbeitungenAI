@@ -1,0 +1,5 @@
+[1] Config.pm:304> INFO - This is Biber 2.14
+[1] Config.pm:307> INFO - Logfile is 'bibliography.blg'
+[154] biber-darwin:322> INFO - === Mon Jun  7, 2021, 15:56:25
+[425] Utils.pm:320> ERROR - Cannot find 'bibliography.bcf'!
+[426] Biber.pm:132> INFO - ERRORS: 1

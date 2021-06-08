@@ -1,113 +1,69 @@
 % !TEX root =  master.tex
-\chapter{Historische Entwicklung der digitalen Kryptographie}
+\chapter{Historische Entwicklung der Kryptographie}
 
 Mit der Entwicklung von Computern und der damit einhergehenden Verarbeitung von Daten darf die Frage nach dem Datenschutz und der Datensicherheit nicht außer Acht gelassen werden. Analoge Daten in Form von Papier können in Tresoren und verschlossenen Koffern transportiert werden. Dieses System wurde bereits bei den Anfängen der digitalen Datenübertragung beachtet und es wurden bestimmte Sicherheiten eingebaut.
 Das aufbrechen dieser Verschlüsselungsmethoden ist dem Gebiet der Kryptographie zuzuordnen. In diesem Fachbereich werden Methoden entwickelt um komplexe Verschlüsselungen aufzubrechen.
-Die Sicherheit von Daten, die durch verteilte Systeme fließen, hat in der heutigen Gesellschaft einen hohen Wert. Dennoch ist es notwendig diese Verschlüsselungen aufbrechen zu können, um zum Beispiel bei Kriminellen Vorgängen diese frühzeitig zu unterbinden. Dafür ist es notwendig, dass die Kriminalpolizei eben solche Mittel zur Hand hat, um Verschlüsselungen bei Gefahr im Vollzug aufbrechen zu können. Mit dem kontrollierten und begründeten Aufbrechen von digitalen Verschlüsselungen kann ein höheres Sicherheitsgefühl bei der Bevölkerung gewährleistet werden.
+Die Sicherheit von Daten, die durch verteilte Systeme fließen, hat in der heutigen Gesellschaft einen hohen Wert. Dennoch ist es notwendig diese Verschlüsselungen aufbrechen zu können, um zum Beispiel bei Kriminellen Vorgängen diese frühzeitig zu unterbinden.
 
-Im weiteren Verlauf werden die einige wichtige Meilensteine der Digitalen Entschlüsselung von Codes näher dargestellt. Dabei liegt das Augenmerk auf immer komplexeren Verschlüsselungen und den damit einhergehenden komplizierteren Anwendungen, zum entschlüsseln eben dieser Codes. Die Historische Entwicklung wird dabei auf zwei Wichtige Ereignisse der Vergangenheit konzentriert und gibt weiterhin einen Blick in die Zukunft in Sachen Quantenkryptographie. Die Folgenden Meilensteine werden näher betrachtet:
+Im weiteren Verlauf werden einige wichtige Meilensteine der Kryptographie näher dargestellt. Dabei liegt das Augenmerk auf immer komplexeren Verschlüsselungen und den damit einhergehenden komplizierteren Anwendungen, zum entschlüsseln eben dieser Codes. Die Historische Entwicklung wird dabei auf zwei Wichtige Ereignisse der Vergangenheit konzentriert und gibt weiterhin einen Blick in die Zukunft in Sachen Quantenkryptographie. Die Folgenden Meilensteine werden näher betrachtet:
 \begin{itemize}
 	\item Turing - Bombe
 	\item VENONA - Projekt
 	\item Quantenkryptographie
 \end{itemize}
 
+Dabei ist zu bemerken, dass in den ersten beiden Systematiken keine künstlichen Intelligenzen eingesetzt wurden, sondern eher regelbasierte Methoden. Jedoch sind diese Überlegungen die Grundlage für die heutige Forschung auf dem Gebiet der Kryptographie.
+
 \subsubsection{Turing - Bombe}
-Quelle 1:
 
-\cite{bloemer_2012}
+Im ersten Weltkrieg war es für die Kriegsparteien von höchster Bedeutung, dass die Kommunikation zwischen den einzelnen Organen des Militärs verschlüsselt ablief. Im Falle einer nicht verschlüsselten Kommunikation könnte der Feind mithören und für das Kriegsgeschehen relevante Informationen abgreifen.
+Diese Verschlüsselung der Kommunikation wurde auf deutscher Seite mittels einer Chiffriere Maschine, der Enigma realisiert. Arthur Scherbius patentierte diese Verschlüsselungsmaschine bereits 1918 für die Anwendung im militärischen aber auch zivilen Umfeld. \cite{bloemer_2012} Die Enigma wurde jedoch erst ab 1930 von der deutschen Reichswehr eingesetzt. \cite{bloemer_2012}
+Die äußere Ansicht der Enigma ähnelt stark der einer Schreibmaschine. Neben der 26 Buchstaben umfassenden Tastatur besaß die Enigma ein Lampenfeld mit je einer Glühbirne für die den entsprechenden Buchstaben auf der Tastatur. \cite{bloemer_2012} Das Steckerbrett und der Walzensatz im inneren der Enigma bilden dabei den kryptographischen Kern. \cite{bloemer_2012}
+Nach Oepen und Höfer kann die Geschichte zur Entschlüsselung der Enigma in zwei Phasen aufgeteilt werden, so sind, Zitat: \enquote{vor dem Krieg vor allem die Leistungen der Polen hervorzuheben. Nach der Besetzung Polens durch die Deutschen wurde die Arbeit der polnischen Kryptoanalytiker von den Briten fortgesetzt.}
+Dies Geschah mit der deutschen Invasion auf Polen, wodurch die Polen beschlossen ihre gesamten Forschungsergebnisse an die Alliierten Einheiten weiterzureichen. \cite{oepen_hoefer_2007}
 
-*** Zitate -direkt ***
+Die Nutzung der Enigma lief wie folgt ab:
+\enquote{Durch Drücken eines Buchstabens auf der Tastatur wurde ein Stromkreis geschlossen. Dieses führte zum Aufleuchten eines Buchstabens im Lampenfeld, der die Verschlüsselung des auf der Tastatur gedrückten Buchstabens war. Eine Nachricht wurde verschlüsselt, indem sukzessive die Buchstaben der Nachricht auf der Tastatur gedrückt und die danach im Lampenfeld aufleuchtenden Buchstaben notiert wurden. Die so erhaltene verschlüsselte oder chiffrierte Nachricht, der Chiffretext, wurde per Funk übertragen.} \cite{bloemer_2012}
 
-Die Enigma war eine bereits 1918 von Arthur Scher- bius patentierte Verschlüsselungsmaschine. Sie wurde sowohl im zivilen als auch im militärischen Bereicheingesetzt.DiedeutscheReichswehr(ab1933 Wehrmacht) setzte die Enigma seit 1930 ein.
+Die Funktionsweise der Enigma ist dagegen um weites Komplexer und wird deshalb außer Acht gelassen, da es den Rahmen dieser Ausarbeitung sonst überschreiten würde.
 
-Von außen betrachtet ähnelte die Enigma in allen Varianten einer großen Schreibmaschine. Al- lerdings besaß die Enigma neben der Tastatur mit den 26 Buchstaben von A bis Z noch ein Lampenfeld, bestehend aus jeweils einem Lämpchen für jeden der 26 Buchstaben. Die Anordnung der Buchstaben auf der Tastatur und dem Lampenfeld entspricht fast der noch heute üblichen Tastenordnung. Der kryptogra- fische Kern der Enigma bestand aus dem Steckerbrett und dem Walzensatz. Diese waren bei geschlossener Enigma nicht oder nur in Teilen zu sehen. Wurde die Enigma jedoch aufgeklappt (wie in Abb. 1), so waren Steckerbrett und Walzensatz zu sehen.
+Durch die Konstellation der Enigma mit den drei inneren Walzen ist es möglich, nacheinander 26 · 26 · 25 = 16 900 unterschiedliche Substitutionen zu generieren. \cite{bloemer_2012} Erst nach 16 900 Buchstaben erreicht die Enigma ihren ursprünglichen Zustand und berechnet so eine  polyalphabetische Substitutions Chiffre mit einer Blocklänge von 16 900. \cite{bloemer_2012} Durch die Enigma verschlüsselte Nachrichten waren in den meisten Fällen jedoch kürzer als 16 900 Buchstaben, was den deutschen Geheimdiensten eine fälschlicherweise hohe Sicherheit eben diesen Verfahrens suggerierte. \cite{bloemer_2012}
 
-Die Enigma enthielt eine kleine Batterie und durch Drücken eines Buchstabens auf der Tastatur wurde ein Stromkreis geschlossen. Dieses führte zum Aufleuchten eines Buchstabens im Lampenfeld, der die Verschlüsselung des auf der Tastatur gedrückten Buchstabens war. Eine Nachricht wurde verschlüsselt, indem sukzessive die Buchstaben der Nachricht auf der Tastatur gedrückt und die danach im Lampenfeld aufleuchtenden Buchstaben notiert wurden. Die so erhaltene verschlüsselte oder chiffrierte Nachricht, der Chiffretext, wurde per Funk übertragen.
+Das deutsche Militär war im gesamten Krieg der festen Überzeugung dass die Enigma sicher sei. \cite{bloemer_2012} Durch die gezielte Kriegsführung der Alliierten wussten die deutschen um Lecks in der Kommunikation, schoben dies jedoch auf gute Spione und stellten die Sicherheit der Enigma nie gänzlich in Frage. \cite{bloemer_2012}
 
-Mit jeder 26. Rotation der mittleren Walze rotierte auch die linke der inneren drei Walzen. Damit berechneten die drei inneren Walzen einer Enigma nacheinander 26 · 26 · 25 = 16 900 unterschiedliche Substitutionen und die Enigma erreichte erst nach 16 900 Buch- staben wieder ihren ursprünglichen Zustand: Eine 3-Walzen-Enigma berechnete eine polyalphabetische Substitutions Chiffre mit Blocklänge 16 900. Da die Nachrichten, die mit einer Enigma verschlüsselt wurden, deutlich kürzer als 16 900 waren, war der klassische und seit Mitte des 19. Jahrhunderts bekannte Kasiski-Angriff auf die Vigenere-Chiffre der Enigma nicht möglich. Dieses war der wesentliche Grund für das, wie sich später zeigte, nicht gerechtfertigte Vertrauen der Wehrmacht und der deutschen Geheimdienste in die Sicherheit der Enigma. 
-*** hier sollte man vielleicht noch ein wenig ausholen, was die walzen und so betrifft, dass man auch ein wenig versteht was da vor sich geht
+Es gelang den Alliierten einen Großteil deutscher Nachrichten abzufangen, die Gründe dafür nach Bloemer sind: \cite{bloemer_2012}
+\begin{itemize}
+	\item Speziell konstruierte Maschinen, die Turing-Welchman-Bombe, welche einen Großteil des Codebrechens automatisierten
+	\item Entwurfsfehler der Enigma
+	\item Mangel in Bedienung und Nutzung, vor allem schlechtes Schlüsselmanagement
+	\item (Kriegs-)Glück, zum Beispiel Aufbringen von U-Booten mit unversehrten Enigma-Maschinen und Schlüsselbüchern
+\end{itemize}
 
-Die deutschen Streitkräfte und Geheimdienste wa- ren bis zum Ende des Zweiten Weltkriegs von der Sicherheit der Enigma überzeugt. Ihnen war zwar bewusst, dass die Alliierten immer wieder geheime deutsche Informationen kannten, doch sie erklärten dies vornehmlich durch Spionage und Verrat. Die Alliierten konnten jedoch ab 1941 mit einer Unter- brechung von Februar 1942 bis etwa November 1942 einen Großteil des Enigma-Nachrichtenverkehrs ab- hören. Entscheidend hierfür waren, neben den oben erwähnten Besonderheiten der Enigma, vor allem
-1. geniale Köpfe, insbesondere natürlich Alan Turing selbst,
-2. brillanteIdeenundclevereAngriffe,
-3. speziell konstruierte Maschinen, die Turing-
-Welchman-Bomben, die einen Großteil des
-Codebrechens automatisierten,
-4. Entwurfsfehler, wie die beiden oben genannten
-Besonderheiten der Enigma,
-5. unsichere Bedienung und Nutzung der Enigma,
-insbesondere schlechtes Schlüsselmanagement
-und
-6. (Kriegs-)Glück, zum Beispiel das Aufbringen von
-U-Booten mit unversehrten Enigma-Maschinen und Schlüsselbüchern.
+Die Systematik hinter den Entschlüsselungen, welche von Turing und seinem Team im Bletchley Park benutzt wurden sind recht einfach zu erklären. Die von den deutschen verschlüsselten Nachrichten beinhalten immer wiederkehrende Textfragmente, welche sich jeden Tag oder auch jede Nachricht glichen. Beispiele dafür sind der Wetterbericht aber auch der nationalsozialistische Gruß \enquote{Heil Hitler}. \cite{bloemer_2012} Diese Fragmente, im Bletchley Park genannten Cribs, waren Indizien für die schnelle Entschlüsselung der Enigma. \cite{bloemer_2012} Bloemer beschreibt den Vorgang, Zitat: \enquote{Kannte man ein Crib und seine genaue Position in einer Nachricht, versuchte man, diejenigen Schlüssel zu bestimmen, die aus dem Crib den entsprechenden Teil des Chiffretextes erzeugten. Unter den (hoffentlich) wenigen gefundenen Kandidaten wurden schließlich, durch Probieren, Teile des Tagesschlüssels, insbesondere die Walzenlage, ermittelt.} \cite{bloemer_2012}
 
-In der Sprache heutiger Kryptografie ausgedrückt, benutzten die Codebrecher von Blet- chley Park Angriffe mit bekannten oder gewählten Klartexten, um die Tagesschlüssel einer Enigma in- nerhalb weniger Stunden zu berechnen. Die Idee selber stammte nicht von Turing, sie wurde vielmehr schon von polnischen Codebrechern um Marian RejewskiindenJahrenunmittelbarvorAusbruch des Zweiten Weltkriegs entwickelt. Die polnischen Mathematiker hatten im Juli 1939 ihre Kenntnisse der Enigma und ihrer Schwächen an britische und französische Geheimdienstler übergeben. Es war Alan Turing, der das volle Potenzial ihrer Ideen erkannte und sie perfektionierte.
+Dieses Prinzip der Entschlüsselung machte sich Turing kurze Zeit später zu Nutze und entwickelte eine Maschine, welche die einzelnen Kombinationen durchgeht und auf Plausibilität prüft. Die Turing-Welchman-Bombe war geboren. Ab Mai 1941 konnte der sich täglich ändernde Schlüssel der 3-Walzen-Enigma innerhalb weniger Stunden gebrochen werden. \cite{bloemer_2012}
 
-Die Idee eines Angriffs mit bekannten Klartexten ist leicht zu erklären. Die von den deutschen Streitkräften und Geheimdiensten mit der Enigma verschlüsselten Nachrichten enthielten viele immer wieder auftauchende Fragmente. So enthielten chiffrierte Nachrichten häufig Wetterberichte mit bekannten, häufig wiederkehrenden Schlagworten. Diese Textfragmente nannten die Codebrecher von Bletchley Park Cribs1 . Kannte man ein Crib und seine genaue Position in einer Nachricht, versuchte man, diejenigen Schlüssel zu bestimmen, die aus dem Crib den entsprechenden Teil des Chiffretextes erzeugten. Unter den (hoffentlich) wenigen gefundenen Kandidaten wurden schließlich, durch Probieren, Teile des Tagesschlüssels, insbesondere die Walzenlage, ermittelt.
-
-Leider können wir hier nicht auf die vielfältigen zusätzlichen Ideen und Tricks eingehen,
-mit denen die Codebrecher um Alan Turing ab Mai 1941 den Tagesschlüssel der von der Marine eingesetzten 3-Walzen-Enigma in der Regel innerhalb weniger Stunden berechneten. Im Februar 1942 wechselte die deutsche Marine jedoch zu einer 4-Walzen-Enigma. Bis auf einige wenige Tage konnten die Codebrecher von Bletchley Park bis Dezember 1942 diese Variante der Enigma nicht knacken. Durch viel Glück (am 30.10.1942 wurde ein deutsches U-Boot mit intakter Enigma und Schlüsselbuch vor Port Said aufgebracht), Ungeschick auf deutscher Seite (für Wetterberichte wurde die 4-Walzen-Enigma als 3-Walzen-Enigma mit eingeschränktem Tagesschlüssel eingesetzt) und durch verbesserte Hardware (die britischen Bomben wurden durch leistungsfähigere amerikanische Bomben ersetzt), konnten ab Dezember 1942 auch die Tagesschlüssel der 4-Walzen-Enigma der Marine wieder innerhalb weniger Stunden berechnet werden.
-
-Die Alliierten setzten alles daran, die Sicherheit ihrer Versorgungskonvois zu garantieren, daher lässt eine solche Statistik die Bedeutung von Bletchley Park für die alliierten Kriegsanstrengungen und den Verlauf des Zweiten Weltkriegs zumindest erahnen.
-
-Quelle 2:
-\cite{oepen_hoefer_2007 }
-
-*** Zitate -direkt ***
-
-Die Geschichte der Entschlüsselung der Enigma lässt sich in zwei Phasen aufteilen. Vor dem Krieg sind vor allem die Leistungen der Polen hervorzuheben. Nach der Besetzung Polens durch die Deutschen wurde die Arbeit der polnischen Kryptoanalytiker von den Briten fortgesetzt.
-
-Einige Jahre lang entschlüsselten die polnischen Kryptoanalytiker den deutschen Nachrichtenverkehr erfolgreich. Doch als die Deutschen 1926 die Enigma einführten, gelang ihnen das nicht mehr
-
-Um geeignete Kryptoanalytiker mit mathematischer Ausbildung zu finden, veranstaltete er an der Universität Posen einen Kryptographiewettbewerb, bei welchem er drei Mathematiker für die Arbeit im Biuro Szyfrow auswählte. Tatsächlich wählte Ciezki die Universität Posen aus, da diese vor dem ersten Weltkrieg noch in deutscher Hand gewesen war, und somit die meisten Studenten und Lehrenden der Universität fließend Deutsch sprachen.
-Der begabteste der drei ausgewählten Mathematiker war Marian Rejewski.
-Dieser wurde sogleich mit der Entschlüsselung der Enigma beauftragt. Hierfür standen ihm zunächst nur eine kommerzielle Variante der Enigma und die bisher abgefangenen verschlüsselten Nachrichten der Deutschen zur Verfügung. Die kommerzielle Variante der Enigma unterschied sich jedoch signifikant von der militärischen Variante, da sie zum einen nicht über ein Steckbrett verfügte und zum anderen ihre Walzen anders verdrahtet waren. Rejewski versuchte zunächst die interne Walzenverdrahtung der militärischen Enigma zu ergründen. Es gelang ihm eine Gleichung aufzustellen, aus welcher die Walzenverdrahtung berechnet werden konnte. Allerdings enthielt die- se Gleichung noch zu viele Unbekannte, um sie zu lösen.
-
-Walzen IV und V zu erschließen, jedoch stieg die Anzahl der möglichen Walzenpositionen
-nun von 6 auf 60 (􏰀5􏰁, statt 3 Möglichkeiten). Um diese neue Variante der Enigma zu entschlüsseln, 3
-wären somit 60 statt 6 Bombas notwendig gewesen. Den Polen fehlten das Material und die Zeit um die Enigma ein weiteres Mal zu entschlüsseln. Als klar wurde, dass es bald zu einer deutschen Invasion in Polen kommen wu ̈rde, beschlossen die Polen ihre Forschungsergebnisse an die Alliierten weiterzugeben.
+Das Prinzip der Verschlüsselung war mit dem Vertauschen von Buchstaben auf den ersten Blick recht simpel, durch die Komplexität der Enigma jedoch trotzdem eine Mammutaufgabe für Welchman und Turing. Mit ihrer Entschlüsselung haben sie maßgeblich dem Kriegsgeschehen beigetragen und gingen damit in die Geschichte ein.
 
 
 \subsubsection{VENONA - Projekt}
 
-\cite{simkin_2020}
-In 1942 the United States Army's Signals Intelligence Service recruited Meredith Gardner to work on breaking German codes. During this period he also taught himself Japanese so that he could also work on their codes as well. He spent the rest of the war studying messages between Germany and Japan. "He worked initially on German ciphers and then on Japanese super-enciphered codes, in which messages were first encoded in five-figure groups taken from a code book and then enciphered by adding a series of randomly produced figures, known as an additive, which was taken from a second book." (1)
-After the war Gardner was assigned to help decode a backlog of communications between Moscow and its foreign missions. By 1945, over 200,000 messages had been transcribed and now a team of cryptanalysts attempted to decrypt them. The project, named Venona (a word which appropriately, has no meaning), was based at Arlington Hall, Virginia. (2) Soviet messages were produced in exactly the same way as Japanese super-enciphered codes. However, "where the Japanese gave the codebreakers a way in by repeatedly using the same sequences of additive, the Russian system did not. As its name suggests, the additive appeared on separate sheets of a pad. Once a stream of additive had been used, that sheet was torn off and destroyed, making the message impossible to break." (3)
-
-\cite{venona_NSA}
-The U.S. Army's Signal Intelligence Service, the precursor to the National Security Agency, began a secret program in February 1943 later codenamed VENONA.
-The mission of this small program was to examine and exploit Soviet diplomatic communications but after the program began, the message traffic included espionage efforts as well.
-Although it took almost two years before American cryptologists were able to break the KGB encryption, the information gained through these transactions provided U.S. leadership insight into Soviet intentions and treasonous activities of government employees until the program was canceled in 1980.
-The VENONA files are most famous for exposing Julius (code named LIBERAL) and Ethel Rosenberg and Reealing give indisputable evidence of their involvement with the Soviet spy ring.
-The first of six public releases of translated VENONA messages was made in July 1995 and included 49 messages about the Soviets' efforts to gain information on the U.S. atomic bomb research and the Manhattan Project. Over the course of five more releases, all of the approximately 3,000 VENONA translations were made public.
+Auch im kalten Krieg zwischen der Sowjet Union und den Alliierten war die Notwendigkeit der Entschlüsselung von Nachrichten ein hoch relevantes Thema. Der \ac{SIS} der US-Armee nahm im Februar 1943 seine Arbeit als Vorläufer der \ac{NSA} auf und leitete das top-geheime Programm VENONA ein. \cite{venona_NSA}
+Nach dem zweiten Weltkrieg kam es zu einem Kommunikationsstau zwischen Moskau und einer Auslandsvertretung der Sowjet Union, wodurch es den Alliierten gelang über 200.000 Nachrichten abzufangen. \cite{simkin_2020} Ein Team von Kryptoanalytikern bekam die Aufgabe eben diese zu entschlüsseln. Das Projekt VENONA wurde geboren und die USA konnte so mehrere Tausende Sowjetische Nachrichten dechiffrieren. \cite{simkin_2020} Die Aufgabe des Programms bestand darin, die diplomatische Kommunikation der Sowjetunion zu untersuchen und auszunutzen. \cite{venona_NSA}
+Obwohl es fast zwei Jahre dauerte, bis amerikanische Kryptologen die KGB-Verschlüsselung knacken konnten, lieferten die durch diese Transaktionen gewonnenen Informationen der US-Führung einen Einblick in die sowjetischen Absichten, bis das Programm 1980 eingestellt wurde. \cite{venona_NSA}
+Da es sich um ein Geheimes Projekt der \ac{NSA} handelte sind nähere Informationen zur Art der Entschlüsselung nicht bekannt. Da es sich jedoch um die Nachkriegszeit handelt kann davon ausgegangen werden, dass hierfür komplexe computergestützte Systeme zum Einsatz kamen.
 
 
 \subsubsection{Quantenkryptographie}
 
-\cite{tittel_brendel_gisin_ribordy_zbinden_1999}
-Quantenkryptographie in der PraxisAlle bisherigen Experimente verwendeten Photonenals Informationsträger. Sie sind experimentell relativeinfach zu erzeugen und lassen sich mit Hilfe vonGlasfasern transportieren, eine Technik, die innerhalbder letzten Jahrzehnte, bedingt durch die enorme Ex-pansion der Telekommunikation, große Fortschritte zuverzeichnen hat. 
-
-Quantenkryptographie, die am weitesten entwickel-te Anwendung des neuen Gebietes der Quantenkom-munikation, hat seit vier Jahren das Labor verlassen.Experimente unter realen Bedingungen sind, zumindestwas Systeme angeht, die auf Kodierung mit „schwa-chen Pulsen“ beruhen, heutzutage schon fast eine Routineübung. Reichweiten liegen in der Gegend von20 – 30 Kilometern, und Quantenbit-Fehlerraten vonwenigen Prozent sind niedrig genug, um einenLauschangriff detektieren und die sichere Übertragungeines Schlüssels gewährleisten zu können. Somit kön-nen existierende System schon heute eine sichereÜbertragung von Nachrichten garantieren, falls Verfah-ren, die auf mathematischer Komplexität beruhen, „ge-knackt“ werden sollten. 
-
-\cite{rass_schartner_2002}
-Quantenkryptographie gilt als Schlüsseltechnologie der kommenden Jahrzehnte. Über 20 Jahre hat die Evolution von der Idee bis zu den ersten Prototypen gedauert, die bereits heute demonstrieren, dass zukünftige Netzwerke mit hoher Sicherheit optisch sein werden.
-
-Anders sieht die Situation im Umfeld der Quantencomputer aus. Peter Shor hat 1997 zwei Algorithmen veröffentlicht, welche das Faktorisierungsproblem und das diskrete Logarithmus-Problem auf einem Quantencomputer effizient lösen [20]. Unterstellt man den Quantencom- putern eine ähnliche Evolution wie den heutigen PCs, so erscheint eine Massen- fertigung von Quantencomputern in den kommenden Jahrzehnten keineswegs un- plausibel, womit zumindest die sicher- heitsrelevanten Grundannahmen vieler asymmetrischen kryptographischen Ver- fahren nicht länger haltbar wären.
-
-Existiert ein Übertragungsmedium, welches nicht ko- pierbar ist? Eine positive Antwort hierauf wurde 1982 von Wootters und Zurek ge- geben [25], und von Steven Wiesner in ei- nem über mehr als zehn Jahre unveröf- fentlichten Manuskript aufgegriffen [24]. Diese innovative Idee wurde von Bennett und Brassard weiterentwickelt zu dem, was wir heute als quantenkryptographi- schen Schlüsselaustausch (QKD – quan- tum key distribution) kennen.
-Die Grundidee ist einfach: Anstatt Bits auf elektromagnetische Impulse zu modu- lieren, findet eine Codierung in Form von polarisierten Photonen statt. Diese kön- nen nach den Ergebnissen von Wootters und Zurek nicht störungsfrei kopiert wer- den [25]. Damit führt jeder Abhörversuch unweigerlich zu einem unnatürlichen An- stieg der Fehlerrate über das durch unver- meidliche Messfehler verursachte Ausmaß hinaus. Dieser Anstieg kann an beiden En- den des Kanals erkannt werden und zum sofortigen Abbruch der Kommunikation führen.
-
-Der technologische Fortschritt in der Entwicklung der Geräte lässt jedoch er- warten, dass in naher Zukunft ausrei- chend hohe Bitraten für eine One-Time Pad-Verschlüsselung zur Verfügung ste- hen. Während dieser Umstand lediglich eine Einschränkung, aber keine Gefahr im eigentlichen Sinne darstellt, sind tatsächli- che Angriffe auf QKD Kanäle bei Einsatz von nicht-vertrauenswürdiger Hardware durchaus denkbar.
-Eine Reihe von Lösungsvorschlägen für dieses Problem wurde im Laufe der Jahre erarbeitet. Darunter Ansätze über Mehr- wege-Übertragung [16, 23], theoretische Betrachtungen von Kanälen mit „unbe- schränkter“ Länge [14] und Sicherheits- analysen von Systemen mit nicht-vertrau- enswürdiger Hardware [1]. Die Zukunft wird zeigen, welche Ansätze sich als prak- tikabel erweisen und durchsetzen werden.
-
-
-
+Bei den zuvor genannten Brute-Force Heuristiken zum Dechiffrieren von Verschlüsselungen, was bedeutet, dass unterschiedliche Schlüssel so lange probiert werden, bis der richtige gefunden wurde, ist es nicht möglich von vorn herein zu wissen, dass eine nicht autorisierte Einheit eine Nachricht abfängt. Anders ist es bei der Quantenkryptographie. 
+Hier werden die Informationen nicht als elektromagnetische Impulse, sondern als polarisierte Photonen transportiert. Das hat laut den Ergebnissen von Wootters und Zurek den Vorteil, dass Informationen nicht störungsfrei kopiert werden können, was einen unbemerkten Versuch des Abhörens unmöglich macht. \cite{rass_schartner_2002}
+Jeder Abhörversuch führt somit unweigerlich zu einem unnatürlichen Anstieg der Fehlerrate an beiden Enden des Kommunikationsweges, welches bei Erkennung zu einerm sofortigen Stoppen der Kommunikation führt. \cite{rass_schartner_2002}
+Die in der Quantenkryptographie genutzten Photonen sind relativ einfach zu erzeugen und können Mithilfe von Glasfaserkabeln sehr schnell transportiert werden. \cite{tittel_brendel_gisin_ribordy_zbinden_1999} Diese Technologie wurde in den letzten Jahren auch hierzulande stark ausgebaut, was eine Grundlage für sichere Kommunikation bietet.
+Mit Kommunikationsreichweiten von 20 bis 30 Kilometern und Quantenbit-Fehlerraten im niedrigen Prozentbereich ist es eingach Abhörangriffe aufzuspüren und die sichere Übertragung einer Nachricht gewährleisten zu können. \cite{tittel_brendel_gisin_ribordy_zbinden_1999}
+Nach Rass und Schartner gilt die, Zitat: \enquote{Quantenkryptographie als Schlüsseltechnologie der kommenden Jahrzehnte. Über 20 Jahre hat die Evolution von der Idee bis zu den ersten Prototypen gedauert, die bereits heute demonstrieren, dass zukünftige Netzwerke mit hoher Sicherheit optisch sein werden.} \cite{rass_schartner_2002}
 
 \subsubsection{Fazit}
-
-*** Fazit ***
-- was sind die performantesten systeme heute?
-- oder ist der Brute Force immer noch der Effektivste
-
-- Was ist am Spruch dran, "Der beste Code ist nur so sicher so lange es keinen schnelleren Computer auf der Welt gibt, der diesen code schneller Knacken kann als er wieder erneuert wird"
+Die Dechiffriere Maschinen von Alan Turing und die im VENONA Projekt sind per Definition keine künstlichen Intelligencen, da sie lediglich Systematiken verfolgen, jedoch bilden sie die Grundlage für die Heutige Forschung im Bereich der Kryptographie. So konnten Forscher Mithilfe einer künstlichen Intelligenz das Voynich-Manuskript, auch bekannt als das Buch, das keiner Lesen kann, entschlüsseln. \cite{business_insider_2018}
+Das heißt, wir sind heute in der Lage komplexe Verschlüsselungen zu Lösen, da anhand von \ac{AI} Wörter oder Sätze erkannt werden können, auch wenn nur ein Bruchteil von Informationen gegeben ist. Dies bedeutet aber nicht, dass wir in einer gläsernen Welt leben, in der alles durch eine \ac{AI} entschlüsselt werden kann.
+Lediglich Wörtliche Chiffren sind so erkennbar. Digitale Verschlüsselungen wie der \ac{AES} sind immer noch die sichersten Methoden der verschlüsselung Digitaler Daten.

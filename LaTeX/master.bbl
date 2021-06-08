@@ -1,0 +1,390 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{bloemer_2012}{article}{}
+      \name{author}{1}{}{%
+        {{hash=531f4b9c2a8085cfa178a0cd4985926c}{%
+           family={Blömer},
+           familyi={B\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{531f4b9c2a8085cfa178a0cd4985926c}
+      \strng{fullhash}{531f4b9c2a8085cfa178a0cd4985926c}
+      \strng{bibnamehash}{531f4b9c2a8085cfa178a0cd4985926c}
+      \strng{authorbibnamehash}{531f4b9c2a8085cfa178a0cd4985926c}
+      \strng{authornamehash}{531f4b9c2a8085cfa178a0cd4985926c}
+      \strng{authorfullhash}{531f4b9c2a8085cfa178a0cd4985926c}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Informatik-Spektrum}
+      \field{number}{4}
+      \field{title}{Turing und Kryptografie}
+      \field{volume}{35}
+      \field{year}{2012}
+      \true{nocite}
+      \field{pages}{261\bibrangedash 270}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1007/s00287-012-0622-7
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/content/pdf/10.1007/s00287-012-0622-7.pdf
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/content/pdf/10.1007/s00287-012-0622-7.pdf
+      \endverb
+    \endentry
+    \entry{oepen_hoefer_2007}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=fb35863e0fdbaede7c2ce5979b086454}{%
+           family={Oepen},
+           familyi={O\bibinitperiod},
+           given={Dominik},
+           giveni={D\bibinitperiod}}}%
+        {{hash=2ecb3ad4e383cad8487785fa5c552a19}{%
+           family={Höfer},
+           familyi={H\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Humboldt Universität zu Berlin}%
+      }
+      \strng{namehash}{f4a9b26e0481e977e97758c5414eb085}
+      \strng{fullhash}{f4a9b26e0481e977e97758c5414eb085}
+      \strng{bibnamehash}{f4a9b26e0481e977e97758c5414eb085}
+      \strng{authorbibnamehash}{f4a9b26e0481e977e97758c5414eb085}
+      \strng{authornamehash}{f4a9b26e0481e977e97758c5414eb085}
+      \strng{authorfullhash}{f4a9b26e0481e977e97758c5414eb085}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Humboldt Universität zu Berlin}
+      \field{month}{04}
+      \field{title}{Die Enigma}
+      \field{year}{2007}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www2.informatik.hu-berlin.de/~oependox/files/Ausarbeitung-Enigma.pdf
+      \endverb
+      \verb{url}
+      \verb https://www2.informatik.hu-berlin.de/~oependox/files/Ausarbeitung-Enigma.pdf
+      \endverb
+    \endentry
+    \entry{simkin_2020}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=5af2616408a48710826286ffb59e1ed8}{%
+           family={Simkin},
+           familyi={S\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Spartacus Educational}%
+      }
+      \strng{namehash}{5af2616408a48710826286ffb59e1ed8}
+      \strng{fullhash}{5af2616408a48710826286ffb59e1ed8}
+      \strng{bibnamehash}{5af2616408a48710826286ffb59e1ed8}
+      \strng{authorbibnamehash}{5af2616408a48710826286ffb59e1ed8}
+      \strng{authornamehash}{5af2616408a48710826286ffb59e1ed8}
+      \strng{authorfullhash}{5af2616408a48710826286ffb59e1ed8}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Spartacus Educational}
+      \field{month}{01}
+      \field{title}{Venona Project}
+      \field{year}{2020}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://spartacus-educational.com/Venona.htm
+      \endverb
+      \verb{url}
+      \verb https://spartacus-educational.com/Venona.htm
+      \endverb
+    \endentry
+    \entry{venona_NSA}{misc}{}
+      \list{publisher}{1}{%
+        {National Security Agency Central Security Service (NSA CSS)}%
+      }
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Venona Documents}
+      \field{title}{VENONA}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.nsa.gov/news-features/declassified-documents/venona/
+      \endverb
+      \verb{url}
+      \verb https://www.nsa.gov/news-features/declassified-documents/venona/
+      \endverb
+    \endentry
+    \entry{haynes_klehr_1999}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=10ee37e20bea7fa63c7a5e46dfac8806}{%
+           family={HAYNES},
+           familyi={H\bibinitperiod},
+           given={JOHN\bibnamedelima EARL},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=a18c388f82bba1f05a9977219b418eb3}{%
+           family={KLEHR},
+           familyi={K\bibinitperiod},
+           given={HARVEY},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The New York Times}%
+      }
+      \strng{namehash}{dbd500cd72b4a3964bb0b606c2a6f138}
+      \strng{fullhash}{dbd500cd72b4a3964bb0b606c2a6f138}
+      \strng{bibnamehash}{dbd500cd72b4a3964bb0b606c2a6f138}
+      \strng{authorbibnamehash}{dbd500cd72b4a3964bb0b606c2a6f138}
+      \strng{authornamehash}{dbd500cd72b4a3964bb0b606c2a6f138}
+      \strng{authorfullhash}{dbd500cd72b4a3964bb0b606c2a6f138}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The New York Times}
+      \field{title}{Venona - Decoding Soviet Espionage in America}
+      \field{year}{1999}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://archive.nytimes.com/www.nytimes.com/books/first/h/haynes-venona.html?_r=1&scp=12&sq=klehr&st=cse
+      \endverb
+      \verb{url}
+      \verb https://archive.nytimes.com/www.nytimes.com/books/first/h/haynes-venona.html?_r=1&scp=12&sq=klehr&st=cse
+      \endverb
+    \endentry
+    \entry{tittel_brendel_gisin_ribordy_zbinden_1999}{misc}{}
+      \name{author}{5}{}{%
+        {{hash=c8a9e8e6fcee381d8a78c93f1232ba10}{%
+           family={Tittel},
+           familyi={T\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod}}}%
+        {{hash=4c539cdc425524b5ae8a8a56343a1331}{%
+           family={Brendel},
+           familyi={B\bibinitperiod},
+           given={Jürgen},
+           giveni={J\bibinitperiod}}}%
+        {{hash=cb3d0bc2c4a232b4d04dd67437cb2861}{%
+           family={Gisin},
+           familyi={G\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=c8c362964c5a0898c126e3f8f869fd3e}{%
+           family={Ribordy},
+           familyi={R\bibinitperiod},
+           given={Gregoire},
+           giveni={G\bibinitperiod}}}%
+        {{hash=974f0cb090f5ca893f19589e78702a38}{%
+           family={Zbinden},
+           familyi={Z\bibinitperiod},
+           given={Hugo},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {wiley}%
+      }
+      \strng{namehash}{f3fb069d5e1daeb9af88a2c132e6d966}
+      \strng{fullhash}{3c40c9421a7d0df92edde88c079b9111}
+      \strng{bibnamehash}{3c40c9421a7d0df92edde88c079b9111}
+      \strng{authorbibnamehash}{3c40c9421a7d0df92edde88c079b9111}
+      \strng{authornamehash}{f3fb069d5e1daeb9af88a2c132e6d966}
+      \strng{authorfullhash}{3c40c9421a7d0df92edde88c079b9111}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{onlinelibrary}
+      \field{title}{Quantenkryptographie}
+      \field{year}{1999}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/epdf/10.1002/phbl.19990550608
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/epdf/10.1002/phbl.19990550608
+      \endverb
+    \endentry
+    \entry{rass_schartner_2002}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=7ade9571ddc325c9e91a298e25a2680a}{%
+           family={Rass},
+           familyi={R\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=fc6f53c5534855f379f5adfafbd87134}{%
+           family={Schartner},
+           familyi={S\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Online}%
+      }
+      \strng{namehash}{33bcddc6fd40bb35a49b8e4e2fc876b8}
+      \strng{fullhash}{33bcddc6fd40bb35a49b8e4e2fc876b8}
+      \strng{bibnamehash}{33bcddc6fd40bb35a49b8e4e2fc876b8}
+      \strng{authorbibnamehash}{33bcddc6fd40bb35a49b8e4e2fc876b8}
+      \strng{authornamehash}{33bcddc6fd40bb35a49b8e4e2fc876b8}
+      \strng{authorfullhash}{33bcddc6fd40bb35a49b8e4e2fc876b8}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Springer Online}
+      \field{title}{Quantenkryptographie - Überblick und aktuelle entwicklungen}
+      \field{year}{2002}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://link.springer.com/content/pdf/10.1007/s11623-010-0205-1.pdf
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/content/pdf/10.1007/s11623-010-0205-1.pdf
+      \endverb
+    \endentry
+    \entry{business_insider_2018}{misc}{}
+      \list{publisher}{1}{%
+        {Business Insider}%
+      }
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Business Insider}
+      \field{month}{01}
+      \field{title}{600 Jahre konnte niemand diesen rätselhaften Code knacken - eine Künstliche Intelligenz hat es nun geschafft}
+      \field{year}{2018}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.businessinsider.de/wissenschaft/kuenstliche-intelligenz-entschluesselt-600-jahre-alten-code-2018-1/
+      \endverb
+      \verb{url}
+      \verb https://www.businessinsider.de/wissenschaft/kuenstliche-intelligenz-entschluesselt-600-jahre-alten-code-2018-1/
+      \endverb
+    \endentry
+    \entry{jerzy_2019}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=197fe29672ab4e0a71ab2a9455d71ec9}{%
+           family={Jerzy},
+           familyi={J\bibinitperiod},
+           given={Nina},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Capital}%
+      }
+      \strng{namehash}{197fe29672ab4e0a71ab2a9455d71ec9}
+      \strng{fullhash}{197fe29672ab4e0a71ab2a9455d71ec9}
+      \strng{bibnamehash}{197fe29672ab4e0a71ab2a9455d71ec9}
+      \strng{authorbibnamehash}{197fe29672ab4e0a71ab2a9455d71ec9}
+      \strng{authornamehash}{197fe29672ab4e0a71ab2a9455d71ec9}
+      \strng{authorfullhash}{197fe29672ab4e0a71ab2a9455d71ec9}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Capital}
+      \field{month}{03}
+      \field{title}{Diese Jobs könnten durch Künstliche Intelligenz ersetzt werden}
+      \field{year}{2019}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.capital.de/wirtschaft-politik/diese-jobs-koennten-durch-ai-ersetzt-werden
+      \endverb
+      \verb{url}
+      \verb https://www.capital.de/wirtschaft-politik/diese-jobs-koennten-durch-ai-ersetzt-werden
+      \endverb
+    \endentry
+    \entry{bachmann_2020}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=36f15ef4bb84efa63eea1e7e369c7aa4}{%
+           family={Bachmann},
+           familyi={B\bibinitperiod},
+           given={Lisa},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{36f15ef4bb84efa63eea1e7e369c7aa4}
+      \strng{fullhash}{36f15ef4bb84efa63eea1e7e369c7aa4}
+      \strng{bibnamehash}{36f15ef4bb84efa63eea1e7e369c7aa4}
+      \strng{authorbibnamehash}{36f15ef4bb84efa63eea1e7e369c7aa4}
+      \strng{authornamehash}{36f15ef4bb84efa63eea1e7e369c7aa4}
+      \strng{authorfullhash}{36f15ef4bb84efa63eea1e7e369c7aa4}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ROCKEN Jobs}
+      \field{month}{11}
+      \field{title}{5 Jobs, in denen Roboter Menschen schon ersetzen können}
+      \field{year}{2020}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://rocken.jobs/5-it-jobs-in-denen-roboter-menschen-schon-ersetzen-koennen-aber-in-it-jobs-nicht/
+      \endverb
+      \verb{url}
+      \verb https://rocken.jobs/5-it-jobs-in-denen-roboter-menschen-schon-ersetzen-koennen-aber-in-it-jobs-nicht/
+      \endverb
+    \endentry
+    \entry{guldner_2017}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=bfaa5b3f34170e5d0cf283f62a2b003a}{%
+           family={Guldner},
+           familyi={G\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wirtschaftswoche}%
+      }
+      \strng{namehash}{bfaa5b3f34170e5d0cf283f62a2b003a}
+      \strng{fullhash}{bfaa5b3f34170e5d0cf283f62a2b003a}
+      \strng{bibnamehash}{bfaa5b3f34170e5d0cf283f62a2b003a}
+      \strng{authorbibnamehash}{bfaa5b3f34170e5d0cf283f62a2b003a}
+      \strng{authornamehash}{bfaa5b3f34170e5d0cf283f62a2b003a}
+      \strng{authorfullhash}{bfaa5b3f34170e5d0cf283f62a2b003a}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{WirtschaftsWoche: Das führende Wirtschaftsmagazin}
+      \field{month}{10}
+      \field{title}{Künstliche Intelligenz: KI rückt den BWLern auf die Pelle}
+      \field{year}{2017}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.wiwo.de/erfolg/beruf/kuenstliche-intelligenz-ki-rueckt-den-bwlern-auf-die-pelle/20467700.html
+      \endverb
+      \verb{url}
+      \verb https://www.wiwo.de/erfolg/beruf/kuenstliche-intelligenz-ki-rueckt-den-bwlern-auf-die-pelle/20467700.html
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
