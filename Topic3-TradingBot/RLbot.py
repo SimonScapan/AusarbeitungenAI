@@ -2,8 +2,11 @@
 Reinforcement Learning Trading bot for educational purposes.
 The project is based on: https://www.analyticsvidhya.com/blog/2021/01/bear-run-or-bull-run-can-reinforcement-learning-help-in-automated-trading/
 
-The aim is to find a model for trading with high level intelligence to compare later on with a "buy low sell high" heuristic
+The aim is to find a model for trading with high level intelligence to compare later on with a "buy low sell high" heuristic.
+
+More Detailed Information in scientific Paper linked to this Repository (in folder LaTex)
 '''
+
 
 ############################
 # import required packages #
@@ -21,6 +24,7 @@ import random
 import tensorflow.compat.v1 as tf               # Q-Learn model
 tf.compat.v1.disable_eager_execution()
 
+
 ##################
 # fetch the data #
 ##################
@@ -31,12 +35,12 @@ df_full = pdr.get_data_yahoo("INFY", start="2018-01-01", end="2021-01-01").reset
 df_full.to_csv('INFY.csv',index=False)
 df_full.head()
 
+
 ###########################
 # Define Q-Learning Agent #
 ###########################
 
 df= df_full.copy()          # make copy of stock dataframe
-name = 'Q-learning agent'   # give a name to our agent ... only need for storing information acording to model
 
 class Agent:
     def __init__(self, state_size, window_size, trend, skip, batch_size):       # initialize model information
@@ -166,6 +170,7 @@ class Agent:
                 print('epoch: %d, total rewards: %f.3, cost: %f, total money: %f'%(i + 1, total_profit, cost,
                                                                                   starting_money))
 
+
 ###################
 # Train the Agent #
 ###################
@@ -180,23 +185,24 @@ agent = Agent(state_size = window_size,                                         
               trend = close, 
               skip = skip, 
               batch_size = batch_size)
-agent.train(iterations = 200, checkpoint = 10, initial_money = initial_money)   # specify number of iterations
+agent.train(iterations = 1000, checkpoint = 10, initial_money = initial_money)   # specify number of iterations
+
 
 ##################
 # Test the Agent #
 ##################
 
 states_buy, states_sell, total_gains, invest = agent.buy(initial_money = initial_money) # buy function will return the buy, sell, profit, and investment figures
-                                                                                
-##################
-# Plot the calls #
-##################
+
+
+####################
+# Plot the results #
+####################
 
 fig = plt.figure(figsize = (15,5))                                              # plot the total gains vs the invested figures
 plt.plot(close, color='r', lw=2.)
 plt.plot(close, '^', markersize=10, color='m', label = 'buying signal', markevery = states_buy)
 plt.plot(close, 'v', markersize=10, color='k', label = 'selling signal', markevery = states_sell)
-plt.title('total gains %f, total investment %f%%'%(total_gains, invest))
+plt.title('RL-Bot: total gains %f, total investment %f%%'%(total_gains, invest))
 plt.legend()
-plt.savefig(name+'.png')
-plt.show()
+plt.savefig('plots/1000iter-RL-bot.png')

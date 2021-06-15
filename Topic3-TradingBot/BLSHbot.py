@@ -3,7 +3,10 @@ Buy Low Sell High or momentum strategy bot for educational purposes.
 The project is based on: https://www.datacamp.com/community/tutorials/finance-python-trading
 
 The aim is to find a model for trading with a "buy low sell high" heuristic to compare later on with a high level intelligence
+
+More Detailed Information in scientific Paper linked to this Repository (in folder LaTex)
 '''
+
 
 ############################
 # import required packages #
@@ -27,56 +30,36 @@ df_full.to_csv('INFY.csv',index=False)
 df_full.head()
 
 
-########
+###############################
+# Define BuyLowSellHigh Agent #
+###############################
 
-# Initialize the short and long windows
-short_window = 40
+short_window = 30                                                                                                                   # Initialize the short and long windows
 long_window = 100
 
-# Initialize the `signals` DataFrame with the `signal` column
-signals = pd.DataFrame(index=df_full.index)
-signals['signal'] = 0.0
-
-# Create short simple moving average over the short window
-signals['short_mavg'] = df_full['Close'].rolling(window=short_window, min_periods=1, center=False).mean()
-
-# Create long simple moving average over the long window
-signals['long_mavg'] = df_full['Close'].rolling(window=long_window, min_periods=1, center=False).mean()
-
-# Create signals
-signals['signal'][short_window:] = np.where(signals['short_mavg'][short_window:] 
-                                            > signals['long_mavg'][short_window:], 1.0, 0.0)   
-
-# Generate trading orders
-signals['positions'] = signals['signal'].diff()
-
-# Print `signals`
-print(signals)
+signals = pd.DataFrame(index=df_full.index)                                                                                         
+signals['signal'] = 0.0                                                                                                             # Initialize the `signals` DataFrame with the `signal` column
+signals['short_mavg'] = df_full['Close'].rolling(window=short_window, min_periods=1, center=False).mean()                           # Create short simple moving average over the short window
+signals['long_mavg'] = df_full['Close'].rolling(window=long_window, min_periods=1, center=False).mean()                             # Create long simple moving average over the long window
+signals['signal'][short_window:] = np.where(signals['short_mavg'][short_window:] > signals['long_mavg'][short_window:], 1.0, 0.0)   # Create signals
+signals['positions'] = signals['signal'].diff()                                                                                     # Generate trading orders
+print(signals)                                                                                                                      # Print `signals`
 
 
-########
+####################
+# Plot the results #
+####################
 
-# Initialize the plot figure
-fig = plt.figure()
 
-# Add a subplot and label for y-axis
-ax1 = fig.add_subplot(111,  ylabel='Price in $')
-
-# Plot the closing price
-df_full['Close'].plot(ax=ax1, color='r', lw=2.)
-
-# Plot the short and long moving averages
-signals[['short_mavg', 'long_mavg']].plot(ax=ax1, lw=2.)
-
-# Plot the buy signals
-ax1.plot(signals.loc[signals.positions == 1.0].index, 
+fig = plt.figure(figsize = (15,5))                                  # Initialize the plot figure
+plt.title('Buy Low Sell High Bot')
+ax1 = fig.add_subplot(111,  ylabel='Price in $')                    # Add a subplot and label for y-axis
+df_full['Close'].plot(ax=ax1, color='r', lw=2.)                     # Plot the closing price
+signals[['short_mavg', 'long_mavg']].plot(ax=ax1, lw=2.)            # Plot the short and long moving averages
+ax1.plot(signals.loc[signals.positions == 1.0].index,               # Plot the buy signals
          signals.short_mavg[signals.positions == 1.0],
          '^', markersize=10, color='m')
-         
-# Plot the sell signals
-ax1.plot(signals.loc[signals.positions == -1.0].index, 
+ax1.plot(signals.loc[signals.positions == -1.0].index,              # Plot the sell signals
          signals.short_mavg[signals.positions == -1.0],
          'v', markersize=10, color='k')
-         
-# Show the plot
-plt.show()
+plt.savefig('plots/BLSH-bot.png')                                   # Save and show the plot
