@@ -17,10 +17,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Auswirkungen von \ac {AI} auf den Arbeitsmarkt}{7}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Evolutionäre und Genetische Algorithmen zur Bewältigung komplexer Aufgaben}{9}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Evolutionäre und genetische Algorithmen zur Bewältigung komplexer Aufgaben}{9}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Generative Verfahren der \ac {AI}}{10}{chapter.5}%
+\contentsline {chapter}{\numberline {5}Generative Verfahren der \ac {AI}}{15}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Zusammenfassung der Forschungsthemen}{11}{chapter.6}%
+\contentsline {chapter}{\numberline {6}Zusammenfassung der Forschungsthemen}{16}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{12}{chapter*.11}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{17}{chapter*.17}%

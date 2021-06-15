@@ -384,6 +384,101 @@
       \verb https://www.wiwo.de/erfolg/beruf/kuenstliche-intelligenz-ki-rueckt-den-bwlern-auf-die-pelle/20467700.html
       \endverb
     \endentry
+    \entry{admirals_2018}{misc}{}
+      \list{publisher}{1}{%
+        {Admirals}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Admirals}
+      \field{month}{03}
+      \field{title}{Kann man mit einem Trading Bot wirklich Erfolg haben?}
+      \field{year}{2018}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://admiralmarkets.com/de/wissen/articles/automated-trading/was-sind-trading-roboter-und-funktionieren-sie-wirklich
+      \endverb
+      \verb{url}
+      \verb https://admiralmarkets.com/de/wissen/articles/automated-trading/was-sind-trading-roboter-und-funktionieren-sie-wirklich
+      \endverb
+    \endentry
+    \entry{scheuschner_2021}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=71faefc59375f5e37876d69039e8a9ee}{%
+           family={Scheuschner},
+           familyi={S\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{71faefc59375f5e37876d69039e8a9ee}
+      \strng{fullhash}{71faefc59375f5e37876d69039e8a9ee}
+      \strng{bibnamehash}{71faefc59375f5e37876d69039e8a9ee}
+      \strng{authorbibnamehash}{71faefc59375f5e37876d69039e8a9ee}
+      \strng{authornamehash}{71faefc59375f5e37876d69039e8a9ee}
+      \strng{authorfullhash}{71faefc59375f5e37876d69039e8a9ee}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{aktien.net}
+      \field{month}{02}
+      \field{title}{Trading Bot 2021 - Welchem Anbieter können Sie vertrauen?}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.aktien.net/trading-bot/
+      \endverb
+      \verb{url}
+      \verb https://www.aktien.net/trading-bot/
+      \endverb
+    \endentry
+    \entry{analyticsvidhya_2021}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Analytics Vidhya}
+      \field{month}{01}
+      \field{title}{Reinforcement Learning For Automated Trading using Python}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.analyticsvidhya.com/blog/2021/01/bear-run-or-bull-run-can-reinforcement-learning-help-in-automated-trading/
+      \endverb
+      \verb{url}
+      \verb https://www.analyticsvidhya.com/blog/2021/01/bear-run-or-bull-run-can-reinforcement-learning-help-in-automated-trading/
+      \endverb
+    \endentry
+    \entry{willems_2019}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=be3c366aa7af6efb5bf43d852d8bfaf0}{%
+           family={Willems},
+           familyi={W\bibinitperiod},
+           given={Karlijn},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{be3c366aa7af6efb5bf43d852d8bfaf0}
+      \strng{fullhash}{be3c366aa7af6efb5bf43d852d8bfaf0}
+      \strng{bibnamehash}{be3c366aa7af6efb5bf43d852d8bfaf0}
+      \strng{authorbibnamehash}{be3c366aa7af6efb5bf43d852d8bfaf0}
+      \strng{authornamehash}{be3c366aa7af6efb5bf43d852d8bfaf0}
+      \strng{authorfullhash}{be3c366aa7af6efb5bf43d852d8bfaf0}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{DataCamp Community}
+      \field{month}{11}
+      \field{title}{Python For Finance: Algorithmic Trading}
+      \field{year}{2019}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.datacamp.com/community/tutorials/finance-python-trading
+      \endverb
+      \verb{url}
+      \verb https://www.datacamp.com/community/tutorials/finance-python-trading
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
