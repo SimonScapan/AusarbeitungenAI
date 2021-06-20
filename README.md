@@ -27,7 +27,7 @@ erklären*
 
     Reinforcement Learning Projekt mit wissenschaftlicher Ausarbeitung:
     
-    > Vergleich zweier Crypto Trading bots, zum einen Regelbasiert (Buy low, sell high) und eines Reinformcement learnings zum Automatisierten Aktienhandel. Diese Thematik wird implementiert und dann im Umfang einer Präsentation in der Vorlesung vorgetragen und wissenschaftlich dokumentiert.
+    > Vergleich zweier Crypto Trading bots, zum einen Regelbasiert (Buy low, sell high) und eines Reinformcement learnings zum Automatisierten Aktienhandel. Diese Thematik wird implementiert und wissenschaftlich dokumentiert.
 
 
 4. *Ein generatives Verfahren (GAN, Markov Chains, VAE, ...) erklären und verschiedene
@@ -36,4 +36,4 @@ Computational Art, Synthetische Daten, Forecasting, ...) anwenden*
 
     Deep Learning Projekt zur generierung von Musik anhand von WaveNet
 
-    > Anhand von WaveNet, einem Deep Learning basierten generativen Model entwickelt von Google DeepMind soll Musik produziert werden. Das Ziel dabei ist anhand von liedern verschiedener Künstler (seiner lieblingskünstler) neue Musik zu creieren, damit man nicht immer das gleiche hören muss. Die Ergebnisse werden dann entweder in einer Präsentation während der Vorlesung oder in einem kurzen Podcast vorgestellt und Bewertet.
+    > Anhand von WaveNet, einem Deep Learning basierten generativen Model entwickelt von DeepMind wird aufgezeigt, wie anhand von Audiodateien Musik produziert werden kann. Die Ergebnisse werden im Umfang einer Präsentation während der Vorlesung vorgestellt.
