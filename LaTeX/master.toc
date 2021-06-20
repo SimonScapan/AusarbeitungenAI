@@ -23,4 +23,4 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Zusammenfassung der Forschungsthemen}{16}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{17}{chapter*.17}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{18}{chapter*.17}%
