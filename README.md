@@ -4,15 +4,14 @@ Repository zur Sammlung der Ausarbeitungen zu den vier Themenbereichen in der Vo
 
 # Bearbeitete Themen:
 
-1. *Je eine aktuelle und historische Entwicklung der AI erklären und bewerten*
+1. *Je eine aktuelle und historische Entwicklung der AI erklären und bewerten* (Gewicht 1x)
 
     Ausarbeitung in schriftlicher Form mit dem Thema:
 
     > Gegenüberstellung von Turings Enigma Dechiffriere Machine und heutigen AIs zum Entschlüsseln von Passwörtern und Codes. Dabei aufzeigen der Probleme und Risiken, aber auch, wie man Codes sicherer gestallten kann.
 
 
-2. *Zwei gesellschaftliche Auswirkungen von AI-Entwicklung vergleichen und kritisch
-bewerten*
+2. *Zwei gesellschaftliche Auswirkungen von AI-Entwicklung vergleichen und kritisch bewerten* (Gewicht 1x)
 
     Ausarbeitung in schriftlicher Form mit dem Thema:
 
@@ -23,7 +22,7 @@ bewerten*
 Algorithmus oder eine reinforcement learning Methode zur Bewältigung komplexer
 Aufgaben in ausgewählten Bereichen (z.B. Robotik, Simulationen, Spieltheorie,
 Agentensysteme, ...) anwenden (konzeptionell und in der Praxis) und in diesem Kontext
-erklären*
+erklären* (Gewicht 2x, da Programmierter und Schriftlicher Teil)
 
     Reinforcement Learning Projekt mit wissenschaftlicher Ausarbeitung:
     
@@ -32,7 +31,7 @@ erklären*
 
 4. *Ein generatives Verfahren (GAN, Markov Chains, VAE, ...) erklären und verschiedene
 solcher Verfahren in ausgewählten Bereichen (z.B. Feature Engineering, Creative Coding,
-Computational Art, Synthetische Daten, Forecasting, ...) anwenden*
+Computational Art, Synthetische Daten, Forecasting, ...) anwenden* (Gewicht 1x)
 
     Deep Learning Projekt zur generierung von Musik anhand von WaveNet
 
