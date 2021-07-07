@@ -46,21 +46,21 @@
 ### WaveNet in General
 
 -  Developed by DeepMind in London
-- Generate raw speech signals with subjective naturalness never before reported in the field of Text-to-Speech ( TTS ) 
+- Generate raw speech Signals with subjective naturalness never before reported in the Field of Text-to-Speech ( TTS ) 
 \linebreak
 [@paper_oord_dieleman_2016]
 - Performance improvement by over 50\% 
 \linebreak
 [@webpage_oord_dieleman_2016]
-- Advantage : one model for different purposes
+- Advantage : One Model for different Purposes
 
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 ### WaveNet in General
 
-- Architecture based on dilated causal convolutions
-- WaveNets provide a generic and flexible framework for many applications relying on audio generation :
+- Architecture based on Dilated Causal Convolutions
+- WaveNets provide a generic and flexible Framework for many Applications relying on Audio generation :
     * Text-to-Speech
     * Music generation
     * Speech enhancement
@@ -78,12 +78,12 @@ Source : [@paper_oord_dieleman_2016]
 
 ### Model Explanation - Theoreticaly
 
-- Generative model operating on raw audio waveform
-- Joint probability of a waveform is factorised as product of conditional probabilities
-- Each audio sample is therefore conditioned on the samples at all previous timesteps
-- Conditional probability distribution is modelled by stack of convolutional layers
-- No pooling layers in network
-- Output of the model has same time dimensionality as input
+- Generative Model operating on raw Audio Waveform
+- Joint probability of a Waveform is factorised as a Product of conditional Probabilities
+- Each Audio Sample is therefore conditioned on the Samples at all previous Timesteps
+- Conditional Probability Distribution is modelled by a Stack of Convolutional Layers
+- No pooling Layers in Network
+- Output of the Model has the same Time Dimensionality as the Input
 
 \vspace{1cm}
 Source : [@paper_oord_dieleman_2016]
@@ -93,7 +93,7 @@ Source : [@paper_oord_dieleman_2016]
 ### Model Explanation - Visual
 
 \includegraphics[scale=0.3]{CausalConvolutions.png}
-Figure : Visualization of a stack of causal convolutional layers 
+Figure : Visualization of a Stack of causal Convolutional Layers 
 \linebreak
 Source : [@paper_oord_dieleman_2016]
 
@@ -104,10 +104,10 @@ Source : [@paper_oord_dieleman_2016]
 
 ### Model Explanation - Causal Convolutions
 
-- Main ingredient of WaveNet are causal convolutions
-- Based on that, the model cannot violate the ordering in which the data is modeled
-- Predictions emitted by model at timestep t cannot depend on any of the future timesteps
-- At training, conditional predictions for all timesteps can be made in parallel ( all timesteps of ground truth x are known )
+- Main Ingredient of WaveNet are Causal Convolutions
+- Based on that, the Model cannot violate the Ordering in which the Data is modeled
+- Predictions emitted by the Model at Timestep t cannot depend on any of the future Timesteps
+- At Training, Conditional Predictions for all Timesteps can be made in parallel ( all Timesteps of Ground Truth x are known )
 
 \vspace{1cm}
 Source : [@paper_oord_dieleman_2016]
@@ -116,10 +116,10 @@ Source : [@paper_oord_dieleman_2016]
 
 ### Model Explanation - Causal Convolutions
 
-- At generation of outputs with model, predictions are sequential : \linebreak
-    after each sample is predicted, it is fed back into network to predict next sample
-- Models with causal convolutions do not have recurrent connections, they are typically faster to train than RNNs
-- Problem of causal convolutions is : they require many layers, or large filters to increase the receptive field
+- At the Generation of the Outputs with the Model, Predictions are sequential : \linebreak
+    after each Sample is predicted, it is fed back into the Network to predict the next Sample
+- Models with Causal Convolutions do not have recurrent Connections, they are typically faster to train than RNNs
+- Problem of Causal Convolutions is : they require many Layers, or large Filters to increase the Receptive Field
 
 \vspace{1cm}
 Source : [@paper_oord_dieleman_2016]
@@ -130,10 +130,10 @@ Source : [@paper_oord_dieleman_2016]
 
 ### Model Explanation - Dilated Convolutions
 
-- A dilated convolution is a convolution where the filter is applied over an area larger than its length by skipping input values with a certain step
-- It is equivalent to a convolution with a larger filter derived from the original filter by dilating it with zeros, but significantly more efficient
-- Similar to pooling or strided convolutions, but here the output has the same size as the input
-- Stacked dilated convolutions enable networks to have very large receptive fields with just a few layers
+- A Dilated Convolution is a Convolution where the Filter is applied over an area larger than its length by skipping Input Values with a certain step
+- It is equivalent to a Convolution with a larger Filter derived from the original Filter by dilating it with zeros, but significantly more efficient
+- Similar to pooling or strided Convolutions, but here the Output has the same Size as the Input
+- Stacked Dilated Convolutions enable Networks to have very large receptive Fields with just a few Layers
 
 \vspace{1cm}
 Source : [@paper_oord_dieleman_2016]
@@ -143,7 +143,7 @@ Source : [@paper_oord_dieleman_2016]
 ### Model Explanation - Visual
 
 \includegraphics[scale=0.3]{DilatedCausalConvolutions.png}
-Figure : Visualization of a stack of dilated causal convolutional layers
+Figure : Visualization of a stack of Dilated Causal Convolutional Layers
 \linebreak
 Source: [@paper_oord_dieleman_2016]
 
@@ -156,9 +156,9 @@ Source: [@paper_oord_dieleman_2016]
 
 - "WaveNets can be used to model any audio signal"
 \linebreak
-- Unlike the TTS experiments networks were not conditioned on an input sequence telling it what to play (such as a musical score)
+- Unlike the TTS experiments Networks were not conditioned on an Input Sequence telling it what to play (such as a musical score)
 - Instead : simply let it generate whatever it wanted to
-- Fact that directly generating timestep per timestep with deep neural networks works at all for 16kHz audio is really surprising
+- Fact that directly generating Timestep per Timestep with Deep Neural Networks works at all for 16kHz Audio is really surprising
 
 \vspace{1cm}
 Source : [@webpage_oord_dieleman_2016]
@@ -170,7 +170,7 @@ Source : [@webpage_oord_dieleman_2016]
 ### Implementation Example
 
 Let's have a look at the Results Chen written down in \linebreak
-following article :
+following Article :
 
 \begin{center}
     \includegraphics[scale=0.3]{medium.png}
@@ -185,12 +185,12 @@ Source : Medium [@chen_2017]
 
 ### Implementation Example - Prerequisites
 
-- Model trained on Tensorflow implementation of WaveNet
-- 150 000 steps at a default of 0.001 learning rate
-- Amazon Web Services’ p2.xLarge EC2 instance to train the WaveNet model with a GPU
-- 118 500 steps trained in approximately 3.5 days ( then AWS costs get to high ) : 
-    * with each step taking roughly 2.5 seconds
-    * their laptops took approximately 1 minute just to train one step
+- The Model trained on Tensorflow Implementation of WaveNet
+- 150 000 Steps at a default of 0.001 Learning Rate
+- They use Amazon Web Services’ p2.xLarge EC2 Instance to train the WaveNet Model with a GPU
+- 118 500 Steps trained in approximately 3.5 days ( then the AWS Costs get to high ) : 
+    * With each Step taking roughly 2.5 seconds
+    * Their Notebooks took approximately 1 Minute just to train one Step
 
 \vspace{1cm}
 Source : Medium [@chen_2017]
@@ -201,7 +201,7 @@ Source : Medium [@chen_2017]
 
 ### Implementation Example - Some Results
 
-- Based on Happy Music from YouTube the model results are : \linebreak
+- Based on Happy Music from YouTube the Model Results are : \linebreak
     * \href{https://soundcloud.com/rachachachara/happy-9950-generated?utm_source=clipboard&utm_campaign=wtshare&utm_medium=widget&utm_content=https\%253A\%252F\%252Fsoundcloud.com\%252Frachachachara\%252Fhappy-9950-generated}{\beamergotobutton{9950 steps}} \linebreak
     * \href{https://soundcloud.com/rachachachara/happy-10800-generated?utm_source=clipboard&utm_campaign=wtshare&utm_medium=widget&utm_content=https\%253A\%252F\%252Fsoundcloud.com\%252Frachachachara\%252Fhappy-10800-generated}{\beamergotobutton{10800 steps}}\linebreak
     * \href{https://soundcloud.com/rachachachara/happy-14450-generated?utm_source=clipboard&utm_campaign=wtshare&utm_medium=widget&utm_content=https\%253A\%252F\%252Fsoundcloud.com\%252Frachachachara\%252Fhappy-14450-generated}{\beamergotobutton{14450 steps}}\linebreak
@@ -216,10 +216,10 @@ Source : Medium [@chen_2017]
 
 ### Implementation Example - Challenges
 
-- Very much iterations are needed in order to achieve approximately good results
-- Model requires at least 20 000 steps to generate something somewhat recognizable
-- And around 80 000 steps for something somewhat coherent
-- Learning on local machines takes very long for only semi good results
+- Very much Iterations are needed in order to achieve approximately good Results
+- The Model requires at least 20 000 Steps to generate something somewhat recognizable
+- And around 80 000 Steps for something somewhat coherent
+- Learning on local Machines takes very long for only semi good results
 
 \vspace{1cm}
 Source : Medium [@chen_2017]
@@ -230,11 +230,11 @@ Source : Medium [@chen_2017]
 
 ### Implementation Example - Chances
 
-- Scientist at DeepMind implemented a model playing Piano : 
+- Scientist at DeepMind implemented a Model playing Piano : 
     * \href{https://storage.googleapis.com/deepmind-media/research/WaveNet/Music/sample_1.wav}{\beamergotobutton{WaveNet Piano example}} [@webpage_oord_dieleman_2016]
-- Advantage is, that they input exactly one instrument
-- WaveNet achieves good results on simple inputs
-- Complex inputs require a lot of learning steps
+- Advantage is, that they input exactly one Instrument
+- WaveNet achieves good results on simple Inputs
+- Complex Inputs require a lot of Learning Steps
 
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -243,10 +243,10 @@ Source : Medium [@chen_2017]
 
 ### Wrap up
 
-- WaveNet is basically a good model for generating music
-- Good results can be achieved quickly with individual instruments
-- If whole songs are used as input, the model has to make significantly more learning steps
-- This extensive learning is very computationally, time-consuming and costly
+- WaveNet is basically a good Model for generating Music
+- Good Results can be achieved quickly with individual Instruments
+- If whole songs are used as Input, the Model has to make significantly more Learning Steps
+- This extensive learning is very Computationally, Time-Consuming and Costly
 
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
